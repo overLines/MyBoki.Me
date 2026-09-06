@@ -1,1 +1,96 @@
+name: "💡 Verbesserung vorschlagen – Deutsch"
+description: "Schlage eine neue Funktion oder Verbesserung für MyBoki.me vor."
+title: "[FEATURE][DE] "
+labels:
+  - feature
+  - needs-review
+  - language:de
 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Feature Request für MyBoki.me
+
+        Vielen Dank für deinen Vorschlag! ❤️
+
+        Beschreibe deine Idee bitte so genau wie möglich.
+        Dein Feedback hilft uns dabei, MyBoki.me kontinuierlich zu verbessern.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "📍 Bereich"
+      description: "Welchen Bereich von MyBoki.me betrifft dein Vorschlag?"
+      options:
+        - Allgemein
+        - Login / Benutzerkonto
+        - Einkaufszettel
+        - Rezepte
+        - To-Dos
+        - Bookmarks
+        - Erinnerungen
+        - Suche
+        - Benutzeroberfläche / Design
+        - Mobile Nutzung
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "❓ Welches Problem möchtest du lösen?"
+      description: "Beschreibe kurz, welches Problem oder welche Einschränkung aktuell besteht."
+      placeholder: |
+        Beispiel:
+        Beim Einkaufen würde ich gerne bereits erledigte Artikel schneller wieder
+        auf meine Einkaufsliste setzen können.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "💡 Dein Verbesserungsvorschlag"
+      description: "Wie könnte MyBoki.me dieses Problem deiner Meinung nach lösen?"
+      placeholder: |
+        Beispiel:
+        Es wäre hilfreich, wenn es eine Liste der zuletzt gekauften Artikel gäbe,
+        aus der ich Artikel mit einem Klick wieder hinzufügen könnte.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "🎯 Welchen Vorteil hätte diese Funktion?"
+      description: "Warum wäre diese Änderung für dich oder andere Nutzer hilfreich?"
+      placeholder: |
+        Beispiel:
+        Dadurch müsste ich häufig gekaufte Artikel nicht jedes Mal erneut suchen
+        oder eingeben.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "🔄 Alternative Lösungen"
+      description: "Gibt es andere Möglichkeiten, wie das Problem gelöst werden könnte?"
+      placeholder: "Optional – falls du weitere Ideen hast."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "📎 Zusätzliche Informationen"
+      description: "Hier kannst du weitere Informationen, Beispiele, Screenshots oder Ideen ergänzen."
+      placeholder: "Optional – Screenshots, Beispiele oder weitere Hinweise."
+
+  - type: checkboxes
+    id: existing
+    attributes:
+      label: "✅ Vor dem Absenden"
+      options:
+        - label: "Ich habe geprüft, ob ein ähnlicher Vorschlag bereits gemeldet wurde."
+          required: true
