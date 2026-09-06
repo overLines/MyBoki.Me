@@ -15,7 +15,7 @@ Du hast einen Fehler in MyBoki.me gefunden?
 
 Bitte verwende unser vorbereitetes Bug-Formular und beschreibe den Fehler möglichst genau.
 
-👉 **[Fehler melden](https://github.com/DEIN-USERNAME/DEIN-REPOSITORY/issues/new?template=bug_report_de.yml)**
+👉 **[Fehler melden]([https://github.com/DEIN-USERNAME/DEIN-REPOSITORY/issues/new?template=bug_report_de.yml)](https://github.com/overLines/MyBoki.Me/issues/new?template=bug_report_de.yml)**
 
 Hilfreich sind insbesondere:
 
