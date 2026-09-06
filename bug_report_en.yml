@@ -1,0 +1,94 @@
+name: "🐛 Report a bug – English"
+description: "Report a problem in MyBoki.me"
+title: "[BUG][EN] "
+labels:
+  - bug
+  - needs-review
+
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where did the problem occur?
+      options:
+        - Login
+        - Shopping list
+        - Recipes
+        - To-Dos
+        - Bookmarks
+        - Reminders
+        - Search
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Please describe the problem as precisely as possible.
+      placeholder: "Example: Nothing happens when I add a new item."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can the problem be reproduced?
+      placeholder: |
+        1. Open the affected area
+        2. Perform the action
+        3. The problem occurs
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened instead?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Smartphone
+        - Tablet
+        - Desktop / Laptop
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Edge
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Can you reproduce the problem?
+      options:
+        - Yes, always
+        - Sometimes
+        - It happened only once
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or additional information
+      description: Add screenshots, error messages or any additional details here.
