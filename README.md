@@ -153,3 +153,71 @@ Visit MyBoki.me:
 👉 **https://myboki.me**
 
 Thank you for helping us improve MyBoki.me! ❤️
+
+
+---
+
+## 🔐 Copyright & Usage
+
+Copyright © 2026 MyBoki.me. All rights reserved.
+
+### 🇩🇪 Deutsch
+
+Dieses Repository dient ausschließlich als öffentliches Support- und
+Feedback-System für MyBoki.me.
+
+Es enthält keinen Quellcode der MyBoki.me-Anwendung.
+
+Die MyBoki.me-Anwendung, der zugehörige Quellcode, das Design,
+Logos, Marken und andere geschützte Bestandteile sind nicht Bestandteil
+dieses Repositorys und werden durch die Veröffentlichung dieses
+Support-Repositorys nicht unter einer Open-Source-Lizenz bereitgestellt.
+
+Für dieses Repository wird keine Open-Source-Lizenz erteilt.
+
+GitHub-spezifische Rechte, die sich aus den GitHub-Nutzungsbedingungen
+für öffentliche Repositorys ergeben, bleiben hiervon unberührt.
+
+### 💡 Eingereichte Fehlerberichte und Feature Requests
+
+Mit dem Einreichen eines Bug Reports, Feature Requests oder sonstigen
+Feedbacks erklärst du dich damit einverstanden, dass die darin enthaltenen
+Ideen, Vorschläge und Informationen von MyBoki.me zur Analyse,
+Verbesserung und Weiterentwicklung der Anwendung verwendet werden dürfen.
+
+Bitte veröffentliche in Issues keine Passwörter, Zugangsdaten,
+API-Schlüssel, personenbezogenen Daten oder andere vertrauliche
+Informationen.
+
+---
+
+### 🇬🇧 English
+
+This repository is used exclusively as a public support and feedback
+system for MyBoki.me.
+
+It does not contain the source code of the MyBoki.me application.
+
+The MyBoki.me application, its source code, design, logos, trademarks
+and other proprietary components are not part of this repository and
+are not made available under an open-source license by publishing this
+support repository.
+
+No open-source license is granted for this repository.
+
+Any rights granted through GitHub's Terms of Service for public
+repositories remain unaffected.
+
+### 💡 Submitted Bug Reports and Feature Requests
+
+By submitting a bug report, feature request or other feedback, you agree
+that the ideas, suggestions and information contained in your submission
+may be used by MyBoki.me to analyze, improve and further develop the
+application.
+
+Please do not include passwords, credentials, API keys, personal data
+or other confidential information in issues.
+
+---
+
+© 2026 MyBoki.me
