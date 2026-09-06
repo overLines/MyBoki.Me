@@ -1,0 +1,94 @@
+name: "🐛 Fehler melden – Deutsch"
+description: "Melde einen Fehler in MyBoki.me"
+title: "[BUG][DE] "
+labels:
+  - bug
+  - needs-review
+
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      description: Wo ist der Fehler aufgetreten?
+      options:
+        - Login
+        - Einkaufszettel
+        - Rezepte
+        - To-Dos
+        - Bookmarks
+        - Erinnerungen
+        - Suche
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe den Fehler möglichst genau.
+      placeholder: "Beispiel: Beim Hinzufügen eines Artikels passiert nichts."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Wie kann ich den Fehler reproduzieren?
+      placeholder: |
+        1. Bereich öffnen
+        2. Aktion durchführen
+        3. Fehler tritt auf
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was sollte stattdessen passieren?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Gerät
+      options:
+        - Smartphone
+        - Tablet
+        - Desktop / Laptop
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Edge
+        - Andere
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Ist der Fehler reproduzierbar?
+      options:
+        - Ja, immer
+        - Manchmal
+        - Nur einmal aufgetreten
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots oder zusätzliche Informationen
+      description: Screenshots, Fehlermeldungen oder weitere Hinweise können hier eingefügt werden.
