@@ -37,7 +37,7 @@ Du hast eine Idee, wie MyBoki.me verbessert werden könnte?
 
 Wir freuen uns über Vorschläge und neue Ideen.
 
-👉 **[Feature Request erstellen]([https://github.com/DEIN-USERNAME/DEIN-REPOSITORY/issues/new?template=feature_request_de.yml)**
+👉 **[Feature Request erstellen](https://github.com/overLines/MyBoki.Me/issues/new?template=feature_request_de.yml)**
 
 Bitte beschreibe möglichst kurz:
 
@@ -52,7 +52,7 @@ Bitte beschreibe möglichst kurz:
 
 Bevor du einen neuen Fehler oder Feature Request erstellst, kannst du prüfen, ob dieser bereits gemeldet wurde.
 
-👉 **[Alle offenen Meldungen anzeigen](https://github.com/DEIN-USERNAME/DEIN-REPOSITORY/issues)**
+👉 **[Alle offenen Meldungen anzeigen](https://github.com/overLines/MyBoki.Me/issues)**
 
 Falls bereits eine passende Meldung existiert, kannst du dort zusätzliche Informationen oder Beobachtungen ergänzen.
 
@@ -78,7 +78,7 @@ Have you found a problem in MyBoki.me?
 
 Please use our prepared bug report form and describe the issue as accurately as possible.
 
-👉 **[Report a bug](https://github.com/DEIN-USERNAME/DEIN-REPOSITORY/issues/new?template=bug_report_en.yml)**
+👉 **[Report a bug](https://github.com/overLines/MyBoki.Me/issues/new?template=bug_report_en.yml)**
 
 Useful information includes:
 
@@ -100,7 +100,7 @@ Do you have an idea that could improve MyBoki.me?
 
 We welcome suggestions and new ideas.
 
-👉 **[Submit a Feature Request](https://github.com/DEIN-USERNAME/DEIN-REPOSITORY/issues/new?template=feature_request_en.yml)**
+👉 **[Submit a Feature Request](https://github.com/overLines/MyBoki.Me/issues/new?template=feature_request_en.yml)**
 
 Please briefly describe:
 
@@ -115,7 +115,7 @@ Please briefly describe:
 
 Before creating a new issue, please check whether the problem or suggestion has already been reported.
 
-👉 **[View all open issues](https://github.com/DEIN-USERNAME/DEIN-REPOSITORY/issues)**
+👉 **[View all open issues](https://github.com/overLines/MyBoki.Me/issues)**
 
 If an existing issue describes the same problem, you can add additional information there.
 
