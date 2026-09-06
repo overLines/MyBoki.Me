@@ -1,1 +1,96 @@
+name: "💡 Suggest a feature – English"
+description: "Suggest a new feature or improvement for MyBoki.me."
+title: "[FEATURE][EN] "
+labels:
+  - feature
+  - needs-review
+  - language:en
 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Feature Request for MyBoki.me
+
+        Thank you for your suggestion! ❤️
+
+        Please describe your idea as accurately as possible.
+        Your feedback helps us continuously improve MyBoki.me.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "📍 Area"
+      description: "Which area of MyBoki.me does your suggestion relate to?"
+      options:
+        - General
+        - Login / User Account
+        - Shopping List
+        - Recipes
+        - To-Dos
+        - Bookmarks
+        - Reminders
+        - Search
+        - User Interface / Design
+        - Mobile Usage
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "❓ What problem would you like to solve?"
+      description: "Briefly describe the problem or limitation you are currently experiencing."
+      placeholder: |
+        Example:
+        When shopping, I would like an easier way to add previously purchased
+        items back to my shopping list.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "💡 Your suggestion"
+      description: "How could MyBoki.me solve this problem?"
+      placeholder: |
+        Example:
+        It would be helpful to have a list of recently purchased items
+        that I could add again with a single click.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "🎯 What would be the benefit?"
+      description: "Why would this feature be useful to you or other users?"
+      placeholder: |
+        Example:
+        This would save time because frequently purchased items would not
+        need to be searched for or entered again.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "🔄 Alternative solutions"
+      description: "Are there any other ways this problem could be solved?"
+      placeholder: "Optional – add any alternative ideas here."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "📎 Additional information"
+      description: "Add any additional information, examples, screenshots or ideas here."
+      placeholder: "Optional – screenshots, examples or additional notes."
+
+  - type: checkboxes
+    id: existing
+    attributes:
+      label: "✅ Before submitting"
+      options:
+        - label: "I have checked whether a similar feature request has already been submitted."
+          required: true
