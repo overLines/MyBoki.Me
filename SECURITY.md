@@ -91,7 +91,7 @@ Never include the following information in a public issue:
 
 Please report security vulnerabilities privately via:
 
-**Email:** security@myboki.me
+**Email:** mailbox@myboki.me
 
 Please include, where possible:
 
