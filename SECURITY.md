@@ -41,7 +41,7 @@ Veröffentliche niemals folgende Informationen in einem öffentlichen Issue:
 
 Bitte melde Sicherheitsprobleme vertraulich über:
 
-**E-Mail:** security@myboki.me
+**E-Mail:** mailbox@myboki.me
 
 Bitte beschreibe möglichst:
 
